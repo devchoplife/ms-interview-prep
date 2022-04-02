@@ -34,12 +34,12 @@ def is_valid(s: str) -> bool:
     return len([char for char, freq in count.items() if freq % 2]) <= 1
 
 
-def min_swaps(input: str) -> int:
-    if not is_valid(input):
+def min_swaps(inp: str) -> int:
+    if not is_valid(inp):
         return -1
 
-    s = list(input)
-    n = len(input)
+    s = list(inp)
+    n = len(inp)
 
     count = 0
     i = 0
@@ -54,18 +54,19 @@ def min_swaps(input: str) -> int:
             else:
                 right -= 1
 
-            if left == right:
-                # s[left] is the character in the middle of the palindrome
-                s[left], s[left + 1] = s[left + 1], s[left]
+        if left == right:
+            # s[left] is the character in the middle of the palindrome
+            (s[left], s[left + 1]) = (s[left + 1], s[left])
+            count += 1
+        else:
+            for j in range(right, n - left - 1):
+                (s[j], s[j + 1]) = (s[j + 1], s[j])
                 count += 1
-            else:
-                for j in range(right, n - left - 1):
-                    s[j], s[j + 1] = s[j + 1], s[j]
-                    count += 1
+            i += 1
     
     return count
 
 if __name__ == '__main__':
-    input = input()
-    res = min_swaps(input)
+    inp = input()
+    res = min_swaps(inp)
     print(res)
