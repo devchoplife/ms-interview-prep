@@ -17,3 +17,4 @@
 - [Unique Integers That Sum Up To 0](/Codility%20Online%20Assessment/uniqueInt.py)
 - [Particle Velocity](/Codility%20Online%20Assessment/particleVel.py)
 - [Widest Path Without Trees](/Codility%20Online%20Assessment/widestPath.py)
+- [Jump Game](/Codility%20Online%20Assessment/jumpGame.py)
