@@ -39,5 +39,5 @@ def minStep(str) -> int:
             numY = numY + 1
     return minDel
 
-if __name__ == '__main__':
-    print(minStep(input()))
+
+print(minStep(input()))

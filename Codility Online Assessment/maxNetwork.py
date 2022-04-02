@@ -21,23 +21,24 @@ The chosen cities may be 2 and 3, and the four roads connected to them are: (2,1
 """
 from typing import List
 
+
 def max_network_rank(starts: List[int], ends: List[int], n: int) -> int:
-    adj = [0] *(n + 1)
-    
+    adj = [0] * (n + 1)
+
     for a, b in zip(starts, ends):
         adj[a] += 1
         adj[b] += 1
-        
-    max_rank = 0 
-    
-    for a,b in zip(starts, ends):
+
+    max_rank = 0
+
+    for a, b in zip(starts, ends):
         max_rank = max(max_rank, adj[a] + adj[b] - 1)
-        
+
     return max_rank
 
-if __name__ == '__main__':
-    starts = [int(x) for x in input().split()]
-    ends = [int(x) for x in input().split()]
-    n = int(input())
-    res = max_network_rank(starts, ends, n)
-    print(res)
+
+starts = [int(x) for x in input().split()]
+ends = [int(x) for x in input().split()]
+n = int(input())
+res = max_network_rank(starts, ends, n)
+print(res)

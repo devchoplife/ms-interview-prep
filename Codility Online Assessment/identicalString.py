@@ -28,7 +28,6 @@ def filter_string(s: str) -> str:
             news += s[i]
     return news
 
-if __name__ == '__main__':
-    s = input()
-    res = filter_string(s)
-    print(res)
+s = input()
+res = filter_string(s)
+print(res)

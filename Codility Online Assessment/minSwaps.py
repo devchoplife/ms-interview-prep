@@ -63,10 +63,10 @@ def min_swaps(inp: str) -> int:
                 (s[j], s[j + 1]) = (s[j + 1], s[j])
                 count += 1
             i += 1
-    
+
     return count
 
-if __name__ == '__main__':
-    inp = input()
-    res = min_swaps(inp)
-    print(res)
+
+inp = input()
+res = min_swaps(inp)
+print(res)

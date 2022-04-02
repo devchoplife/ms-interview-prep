@@ -15,6 +15,8 @@ K = 101
 
 Output: Friday
 """
+
+
 def day_of_week(day: str, k: int) -> str:
     days = [
         "Monday",
@@ -25,16 +27,14 @@ def day_of_week(day: str, k: int) -> str:
         "Saturday",
         "Sunday"
     ]
-    
-    index = 0 
+
+    index = 0
     for i in range(len(days)):
         if days[i] == day:
             index = i
         return days[(index + k) % 7]
-    
 
-if __name__ == '__main__':
-    day = input()
-    k = int(input())
-    res = day_of_week(day, k)
-    print(res)
+day = input()
+k = int(input())
+res = day_of_week(day, k)
+print(res)
