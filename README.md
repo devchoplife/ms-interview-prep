@@ -8,3 +8,4 @@
 - [Longest Substring Without Two Contiguous Occurrences of Letter](/Codility%20Online%20Assessment/longestSubstring.py)
 - [String Without 3 Identical Consecutive Letters](/Codility%20Online%20Assessment/identicalString.py)
 - [Longest Semi-Alternating Substring](/Codility%20Online%20Assessment/semiAltSubstring.py)
+- [Min Steps to Make Piles Equal Height](/Codility%20Online%20Assessment/equalPiles.py)
