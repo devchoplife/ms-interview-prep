@@ -12,3 +12,4 @@
 - [Max Inserts to Obtain String Without 3 Consecutive 'a'](/Codility%20Online%20Assessment/maxInserts.py)
 - [Concatenated String Length with unique Characters](/Codility%20Online%20Assessment/concatStrLen.py)
 - [Largest K such that both K and -K exist in array](/Codility%20Online%20Assessment/largestK.py)
+- [Min Adj Swaps to Group Red Balls](/Codility%20Online%20Assessment/swapRedBalls.py)
