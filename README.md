@@ -6,3 +6,4 @@
 - [Minimum Adjacent Swaps to Make Palindrome](/Codility%20Online%20Assessment/minSwaps.py)
 - [Lexicographically Smallest String](/Codility%20Online%20Assessment/lexSmallest.py)
 - [Longest Substring Without Two Contiguous Occurrences of Letter](/Codility%20Online%20Assessment/longestSubstring.py)
+- [String Without 3 Identical Consecutive Letters](/Codility%20Online%20Assessment/identicalString.py)
