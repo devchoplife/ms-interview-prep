@@ -14,3 +14,4 @@
   - [Maximum Length of a Concatenated String with Unique Characters](/Codility%20Online%20Assessment/concatStrLen2.py)
 - [Largest K such that both K and -K exist in array](/Codility%20Online%20Assessment/largestK.py)
 - [Min Adj Swaps to Group Red Balls](/Codility%20Online%20Assessment/swapRedBalls.py)
+- [Unique Integers That Sum Up To 0](/Codility%20Online%20Assessment/uniqueInt.py)
