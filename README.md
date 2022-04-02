@@ -18,3 +18,4 @@
 - [Particle Velocity](/Codility%20Online%20Assessment/particleVel.py)
 - [Widest Path Without Trees](/Codility%20Online%20Assessment/widestPath.py)
 - [Jump Game](/Codility%20Online%20Assessment/jumpGame.py)
+- [Fair Indexes](/Codility%20Online%20Assessment/fairIndexes.py)
