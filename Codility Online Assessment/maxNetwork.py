@@ -12,8 +12,10 @@ Input:
 starts = [1, 2, 3, 3]
 ends = [2, 3, 1, 4]
 n = 4
+
 Output:
 4
+
 Explanation:
 The chosen cities may be 2 and 3, and the four roads connected to them are: (2,1), (2,3), (3,1), (3,4).
 """
