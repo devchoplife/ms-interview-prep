@@ -9,3 +9,4 @@
 - [String Without 3 Identical Consecutive Letters](/Codility%20Online%20Assessment/identicalString.py)
 - [Longest Semi-Alternating Substring](/Codility%20Online%20Assessment/semiAltSubstring.py)
 - [Min Steps to Make Piles Equal Height](/Codility%20Online%20Assessment/equalPiles.py)
+- [Max Inserts to Obtain String Without 3 Consecutive 'a'](/Codility%20Online%20Assessment/maxInserts.py)
