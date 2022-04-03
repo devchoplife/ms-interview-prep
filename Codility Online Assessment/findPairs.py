@@ -1,0 +1,1 @@
+# https://www.geeksforgeeks.org/find-all-pairs-possible-from-the-given-array/

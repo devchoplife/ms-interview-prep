@@ -1,0 +1,1 @@
+# https://www.tutorialspoint.com/program-to-find-minimum-amplitude-after-deleting-k-elements-in-python
