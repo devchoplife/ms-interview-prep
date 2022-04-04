@@ -19,8 +19,8 @@
 - [Widest Path Without Trees](/Codility%20Online%20Assessment/widestPath.py)
 - [Jump Game](/Codility%20Online%20Assessment/jumpGame.py)
 - [Fair Indexes](/Codility%20Online%20Assessment/fairIndexes.py)
-
 - [Partition array into N subsets with balanced sum](/Codility%20Online%20Assessment/partitionArray.py)
+
 - [Meeting Rooms II](/Codility%20Online%20Assessment/meetingRooms.py)
 - [Count Good Nodes in a Binary Tree](/Codility%20Online%20Assessment/countBinaryNodes.py)
 - [Largest Alphabet Character](/Codility%20Online%20Assessment/largestAlphabet.py)
