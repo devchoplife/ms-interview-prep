@@ -27,5 +27,37 @@ Constraints:
 The number of nodes in the binary tree is in the range [1, 10^5].
 Each node's value is between [-10^4, 10^4].
 """
-# https://ssiddique.info/leetcode-count-good-nodes-in-binary-tree-in-python.html
-# https://shareablecode.com/snippets/count-good-nodes-in-binary-tree-python-solution-leetcode-jqmv-b8BM
+
+
+class TreeNode(object):
+    def __init__(self, val=0, left=0, right=0):
+        self.val = val
+        self.left = left
+        self.right = right
+
+    # Solution 1
+    def goodNodes(self, root):
+        # root type TrieNode
+        result = 0
+        stk = [(root, root.val)]
+        while stk:
+            node, curr_max = stk.pop()
+            if not node:
+                continue
+
+            curr_max = max(curr_max, node.val)
+            result += int(curr_max <= node.val)
+            stk.append((node.right, curr_max))
+            stk.append((node.left, curr_max))
+
+        return result
+
+    def goodNodes2(self, root):
+        def dfs(node, curr_max):
+            if not node:
+                return 0
+
+            curr_max = max(curr_max, node.val)
+            return (int(curr_max <= node.val)) + dfs(node.left, curr_max) + dfs(node.right, curr_max)
+
+        return dfs(root, root.val)
