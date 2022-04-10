@@ -29,9 +29,8 @@
 - [Valid Parentheses | Balanced Parentheses](/Codility%20Online%20Assessment/validParen.py)
 - [ZigZag Tree Traversal](/Codility%20Online%20Assessment/zigzagTree.py)
 - [Trapping Rain Water](/Codility%20Online%20Assessment/RainWater.py)
-
-- [Largest number possible after removal of K digits](/Codility%20Online%20Assessment/removeKDigits.py)
 - [Given an array A and a number x, check for pair in A with sum as x (aka Two Sum)](/Codility%20Online%20Assessment/sumPair.py)
+
 - [Find all Pairs possible from the given Array](/Codility%20Online%20Assessment/findPairs.py)
 - [Insert 5 to Make Number Largest in Python](/Codility%20Online%20Assessment/insert5.py)
 - [Finding Length Of A Linked List](/Codility%20Online%20Assessment/lenLinkedList.py)
