@@ -1,2 +1,40 @@
-# https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-python/
-# https://favtutor.com/blogs/valid-parentheses
+"""
+Given an expression string, write a python program to find whether a given string has balanced parentheses or not.
+
+Examples:
+
+Input : {[]{()}}
+Output : Balanced
+
+Input : [{}{}(]
+Output : Unbalanced
+"""
+open_list = ["(", "[", "{"]
+close_list = (")", "]", "}")
+
+
+def checkParen(myStr):
+    stack = []
+
+    for i in myStr:
+        if i in open_list:
+            stack.append(i)
+        elif i in close_list:
+            pos = close_list.index(i)
+            if (len(stack) > 0 and
+                    open_list[pos] == stack[len(stack) - 1]):
+                stack.pop()
+        else:
+            return "Unbalanced"
+
+    if len(stack) == 0:
+        return "Balanced"
+    else:
+        return "Unbalanced"
+
+
+string = "{[]{()}}"
+print(string, "-", checkParen(string))
+
+string = "[{}{}(]"
+print(string, "-", checkParen(string))
