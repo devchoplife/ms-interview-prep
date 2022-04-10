@@ -15,4 +15,23 @@ Output: -1
 Explanation: 
 Although the largest character is d in the string but the uppercase version is not present hence the output is -1. 
 """
-# https://www.geeksforgeeks.org/find-the-largest-alphabetic-character-present-in-the-string/
+def largestCharacter(str):
+    uppercase = [False] * 26
+    lowercase = [False] * 26
+    
+    # Array for keeping track of both uppercase and lowercase alphabets 
+    arr = list(str)
+    for c in arr:
+        if (c.islower()):
+            lowercase[ord(c) - ord('a')] = True
+        if (c.isupper()):
+            uppercase[ord(c) - ord('A')] = True
+            
+    # Iterate from the right side of the array to get the largest index char
+    for i in range(25, -1, -1):
+        if (uppercase[i] and lowercase[i]):
+            return chr(i + ord('A')) + ""
+        
+        
+str = "azdmeDCABZ"
+print(largestCharacter(str))
