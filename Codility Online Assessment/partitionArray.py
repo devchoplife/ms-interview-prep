@@ -34,4 +34,4 @@ def can_partition_recursive(num, sum, currentIndex):
     return can_partition_recursive(num, sum, currentIndex + 1)
 
 
-print(can_partition([2, 3, 4, 6]))
+print(can_partition([1, 2, 3, 4, 6]))
