@@ -34,8 +34,8 @@
 - [Insert 5 to Make Number Largest in Python](/Codility%20Online%20Assessment/insert5.py)
 - [Finding Length Of A Linked List](/Codility%20Online%20Assessment/lenLinkedList.py)
 - [Number of steps required to convert a binary number to one](/Codility%20Online%20Assessment/numSteps.py)
-
 - [Number of flips to make binary string alternate](/Codility%20Online%20Assessment/coinFlip.py)
+
 - [Python program to check if the given string is IPv4 or IPv6 or Invalid](/Codility%20Online%20Assessment/decodeAddress.py)
 - [Populating Next Right Pointers in Each Node](/Codility%20Online%20Assessment/rightPointers.py)
 - [Rotate a Linked List](/Codility%20Online%20Assessment/rotateList.py)
