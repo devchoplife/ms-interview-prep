@@ -36,8 +36,8 @@
 - [Number of steps required to convert a binary number to one](/Codility%20Online%20Assessment/numSteps.py)
 - [Number of flips to make binary string alternate](/Codility%20Online%20Assessment/coinFlip.py)
 - [Python program to check if the given string is IPv4 or IPv6 or Invalid](/Codility%20Online%20Assessment/decodeAddress.py)
-
 - [Populating Next Right Pointers in Each Node](/Codility%20Online%20Assessment/rightPointers.py)
+
 - [Rotate a Linked List](/Codility%20Online%20Assessment/rotateList.py)
 - [Best Time to Buy and Sell Stock](/Codility%20Online%20Assessment/bestStock.py)
 - [Number of ways to cut a stick of length N into K pieces](/Codility%20Online%20Assessment/cutStick.py)
