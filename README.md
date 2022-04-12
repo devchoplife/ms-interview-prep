@@ -42,7 +42,6 @@
 - [Number of ways to cut a stick of length N into K pieces](/Codility%20Online%20Assessment/cutStick.py)
 - [Find minimum amplitude after deleting K elements](/Codility%20Online%20Assessment/amplitude.py)
 
-- [Find minimum deletion cost to avoid repeating letters](/Codility%20Online%20Assessment/deletionCost.py)
 - [Find smallest possible Number from a given large Number with same count of digits](/Codility%20Online%20Assessment/digitsCount.py)
 - [Program to evaluate simple expressions](/Codility%20Online%20Assessment/expressions.py)
 - [Find two non-overlapping pairs having equal sum in an Array](/Codility%20Online%20Assessment/overlapPairs.py)
